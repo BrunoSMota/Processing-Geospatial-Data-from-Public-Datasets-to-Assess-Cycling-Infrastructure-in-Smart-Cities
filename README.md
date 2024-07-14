@@ -165,9 +165,9 @@ density = ( accidents/(mean_accidents ∗ 2)) ∗ 100
 
 The function assigns colors to each bike lane based on its accident density:
 
-           green if density < 33
-color =    yellow if density < 66
-​            red  if density ≥ 66
+green if density < 33
+yellow if density < 66
+​red  if density ≥ 66
 
 The function initializes a map centered on Barcelona using folium.Map(location=[41.3851,
 2.1734], zoom_start=13), and adds polylines to the map representing bike lanes, with colors
